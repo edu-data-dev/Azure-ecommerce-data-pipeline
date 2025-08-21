@@ -81,9 +81,11 @@ Para ver o diagrama interativo diretamente, acesse:
 ## 📁 Estrutura do Repositório
 
 ```bash
-├── 01_Mount_ADLS.ipynb       # Monta o Data Lake no Databricks
-├── 02_Bronze_to_Silver.ipynb # Transforma dados Bronze → Silver
-├── 03_Silver_to_Gold.ipynb   # Agregações Silver → Gold
-├── img/
-│   ├── arquitetura.png       # Arquitetura da solução
-│   └── dashboard.png         # Dashboard final (substituir pelo print real)
+├── synapse_scripts/
+│   ├── create_gold_layer_views.sql       # SQL da VIEW no synapse
+├── 01_Mount_ADLS.ipynb                   # Monta o Data Lake no Databricks
+├── 02_Bronze_to_Silver.ipynb             # Transforma dados Bronze → Silver
+├── 03_Silver_to_Gold.ipynb               # Agregações Silver → Gold
+├── img/ 
+│   ├── arquitetura.png                   # Arquitetura da solução
+│   └── dashboard.png                     # Dashboard final (substituir)
