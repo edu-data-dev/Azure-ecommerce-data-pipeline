@@ -1,4 +1,4 @@
-# 🚀 Projeto de Pipeline de Dados de E-commerce no Azure
+# Pipeline de Dados de E-commerce no Azure + Databricks
 
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white)
